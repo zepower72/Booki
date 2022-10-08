@@ -52,7 +52,7 @@ section {
   margin-top: 30px;
   padding-top: 15px;
 }
-
+/*HEADER*/
 
 header {
   display: flex;
@@ -107,7 +107,7 @@ margin-top: 30px;
   }
  }
 
-
+/* SECTION RECHERCHE*/
 form {
   display: flex;
   align-items: center;
@@ -136,7 +136,6 @@ form {
 .Searchinput {
   height: 45px;
   width: 250px;
-  text-align: center;
   border-top:#F2F2F2 1px solid ;
   border-bottom: #F2F2F2 1px solid;
   border-left: transparent;
@@ -146,7 +145,7 @@ form {
   @media screen and (max-width: 767px)  {
   .Searchinput {
    text-align: left;
-   width: 80%;} 
+   } 
        }
   
 .Searchsubmitinput {
@@ -161,8 +160,6 @@ cursor: pointer;
 @media screen and (max-width: 767px)  {
   .Searchsubmitinput {
   border:#F2F2F2 1px solid ;
-  width: 50%;
-  float: right;
   padding: 0;
               }
       }
@@ -253,11 +250,10 @@ margin-right: 15px;
 
 }
 
-
+/*SECTION HEBERGEMENT*/
 .containerMarseille {
 display: flex;
 column-gap: 2%;
-
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -271,23 +267,21 @@ column-gap: 2%;
     flex-direction: column;      }
   }
 
-.col1 {
+.Hostings {
 background-color: #F2F2F2;
-width: 68%;
 padding: 15px;
 border-radius: 10px;
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  .col1 {
+  .Hostings {
    width: 100%;  }
    }
 @media screen and (max-width: 767px) {
-    .col1 {
-     width: auto; 
-    margin-bottom: 25px;
+  .Hostings {
+  width: auto; 
+  margin-bottom: 25px;
   padding: 5px; }
      }
-
 
 .hostingsMarseille {
 display: flex;  
@@ -339,22 +333,18 @@ color: #0065FC
 .bloc-etoiles i[data-active="false"]
 { color: #d9d9d9;}
 
-.col2 {
-width: 30%;
+.Popular {
 background-color: #F2F2F2;
 padding: 15px;
 border-radius: 10px;
   }
 @media screen and (min-width: 768px) and (max-width: 992px) {
-.col2 {
- margin-top:25px;
-width: auto;     }
+.Popular {
+margin-top:25px; }
     }
 @media screen and (max-width: 767px) {
-.col2 {
-width: auto;
-padding: 5px;
-}
+.Popular {
+padding: 5px;}
 }    
 .popularhostings {
 display: flex;
@@ -405,7 +395,7 @@ margin-left: 0;
 margin-left: -30%;
 }
 }
- 
+/*SECTION ACTIVITES*/ 
 .activity {
     padding-bottom: 25px;
   }
@@ -420,6 +410,12 @@ margin-left: -30%;
   justify-content:space-between;
   padding-bottom: 5px;
   }
+@media screen and (min-width: 768px) and (max-width: 992px) {
+.activitygallery {
+height: 350px; 
+overflow: scroll;}
+}
+
 @media screen and (max-width: 767px) {
 .activitygallery {
 display:block ;
@@ -435,12 +431,17 @@ height: auto ; }
  border-radius: 5%;
  box-shadow:0 5px 5px #F2F2F2;}
 
+@media screen and (min-width: 768px) and (max-width: 992px) {
+.activityitem1,.activityitem2,.activityitem3,.activityitem4, .activityitem5,.activityitem6 {
+    height: 320px; }}
+
 @media screen and (max-width: 767px) {
   .activityitem1,.activityitem4 {
   height: 200px;
   width: 100%;
-margin-bottom: 15px;}
+  margin-bottom: 15px;}
    }
+
 
 .activityimg1, .activityimg4 {
   height: 440px;
@@ -449,10 +450,15 @@ margin-bottom: 15px;}
   max-width: 100%;
   width: 100%;
 }
+@media screen and (min-width: 768px) and (max-width: 992px) {
+.activityimg1, .activityimg4 {
+height: 250px;
+width: 250px;}
+}
+
 @media screen and (max-width: 767px) {
 .activityimg1, .activityimg4 {
-height: 150px;
-}
+height: 150px;}
 }
 .activityitem2 { 
   overflow: hidden;
@@ -472,6 +478,11 @@ height: 150px;
    object-fit: cover;
    width: 100%;
  }
+ @media screen and (min-width: 768px) and (max-width: 992px) {
+  .activityimg2 {
+  height: 250px;}
+  }
+
  @media screen and (max-width: 767px) {
   .activityimg2 {
   height: 150px;
@@ -496,7 +507,11 @@ height: 150px;
    max-width: 100%;
    width: 100%;
  }
- @media screen and (max-width: 767px) {
+  @media screen and (min-width: 768px)  and (max-width: 992px){
+  .activityimg3 {
+  height: 250px;  }
+}
+  @media screen and (max-width: 767px) {
   .activityimg3 {
   height: 150px;
   }
@@ -519,6 +534,11 @@ height: 150px;
    object-fit: cover;
    width: 100%;
  }
+ @media screen and (min-width: 768px)  and (max-width: 992px){
+  .activityimg5 {
+  height: 250px;  }
+}
+ 
  @media screen and (max-width: 767px) {
   .activityimg5 {
   height: 150px;
@@ -543,6 +563,10 @@ height: 150px;
    max-width: 100%;
    width: 100%;
  }
+ @media screen and (min-width: 768px)  and (max-width: 992px){
+  .activityimg6 {
+  height: 250px;  }
+}
  @media screen and (max-width: 767px) {
   .activityimg6 {
   height: 150px;
