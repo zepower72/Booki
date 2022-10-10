@@ -21,7 +21,7 @@
    */
   
   body {
-    margin: 0;
+    margin: auto;
   }
   
   /**
@@ -38,7 +38,7 @@
    */
   
   h1 {
-    font-size: 2em;
+    font-size: 22px;
     margin: 0.67em 0;
   }
   
