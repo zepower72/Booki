@@ -1,0 +1,67 @@
+/* SECTION FORMULAIRE RECHERCHE*/
+
+form {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+         }
+  
+  @media screen and (max-width: 767px) {
+    form {
+    max-width: 100%;}
+  }
+  .Searchicon {
+    padding: 16px;
+    background-color: #F2F2F2;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+       
+     }
+  @media screen and (max-width: 767px)  {
+      .Searchicon {
+       border-top-right-radius: 10px;
+       border-bottom-right-radius: 10px;}
+        }
+  .Searchinput {
+    height: 48px;
+    border-top:#F2F2F2 1px solid ;
+    border-bottom: #F2F2F2 1px solid;
+    border-left: transparent;
+    border-right: transparent;
+    }
+    
+    @media screen and (max-width: 767px)  {
+    .Searchinput {
+     width: 80%;  } 
+         }
+    
+  .Searchsubmitinput {
+  display : flex;
+  align-items: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #0065FC;
+  height: 45px;
+  color: white;
+  border : none;
+  cursor: pointer;
+  }
+  @media screen and (max-width: 767px)  {
+    .Searchsubmitinput {
+    border:#F2F2F2 1px solid ;
+    width: 20%;
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%; }
+        }
+  .Searchsubmitinputicon {
+  display: none;
+  padding: 14px;
+  }
+  @media screen and (max-width: 767px)  {
+  .Searchsubmitinputicon {
+  display:initial;  }}
+  
+  @media screen and (max-width: 767px)  {
+  .SearchsubmitinputText {
+  display: none; }}
+  
