@@ -1,55 +1,62 @@
 /*HEADER*/
 
+
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 45px;
+
     }
   
   @media screen and (max-width: 767px) {
   header {
-    display: block;
+  display: block;
   }
   }  
-  .logoImg {
-  margin-top: 30px;
-  height: 45px;
+  
+.logoImg {
+margin-top: 15px;
   }
   @media screen and (max-width: 767px) {
-    .logo {
+  .logo {
   text-align: center;
     }
     } 
+   
+@media screen and (max-width: 767px) {
   .headerNav {
+    justify-content: center;
+    }
+  }
+.headerNav ul {
   display: flex;
-  margin-top: 30px;
+  gap: 50px;
+  border-top-style: solid;
+  border-color:transparent;
+  margin-top: 0;
   }
-  @media screen and (max-width: 767px) {
-    .headerNav {
-      text-align: center;
-    }
+@media screen and (max-width: 767px){
+.headerNav ul {
+  gap: 0;
   }
+}
+.headerNav li {
+  padding: 45px 16px;
+  border-top: 2px solid;
+  border-top-color: transparent}
+
+.headerNav ul a:hover {
+  padding: 45px 16px;
+ color: #0065FC;
+ border-top: 2px solid;
+ border-top-color: #0065FC;
   
-  .headerNav a {
-    padding-inline: 30px;
-    padding-top: 15px;
-    border-top-style: solid;
-    border-color:transparent;
-   }
-   @media screen and (max-width: 767px) {
-    .headerNav a {
-      padding-bottom: 15px;
-      border-bottom-style: solid;
-      border-top: none;
     }
-   }
-  
-  .headerNav a:hover {
-    color: #0065FC;
-    border-color: #0065FC;
-    }
-  @media screen and (max-width: 767px) {
-    .Searchtitle {
-    justify-content: center; 
-    }
-   }
+    @media screen and (max-width: 767px){
+    .headerNav ul a:hover {
+      padding-bottom: 20px;
+      border-top: transparent;
+      color: #0065FC;
+      border-bottom: 2px solid #0065FC;
+    }}

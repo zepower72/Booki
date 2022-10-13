@@ -2,6 +2,7 @@
 .containerMarseille {
     display: flex;
     column-gap: 2%;
+    margin-top: 50px;
     }
     
     @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -132,7 +133,6 @@
           }
            
         .popularimgtext {
-          padding-top: 5px;
-          padding-left: 5px;
+          padding-left: 15px;
         }
         
