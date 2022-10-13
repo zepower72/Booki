@@ -1,71 +1,84 @@
 /* SECTION FORMULAIRE RECHERCHE*/
 
 form {
-    display: flex;
-    width: 100%;
-    margin-bottom: 30px;
-            }
-  
-  @media screen and (max-width: 767px) {
-    form {
-    max-width: 100%;}
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  form {
+    max-width: 100%;
   }
+}
+
+.Searchicon {
+  padding: 16px;
+  background-color: #F2F2F2;
+  border-radius: 16px 0 0 16px;
+
+}
+
+@media screen and (max-width: 767px) {
   .Searchicon {
-    padding: 16px;
-    background-color: #F2F2F2;
-    border-radius: 16px 0 0 16px;
-       
-     }
-  @media screen and (max-width: 767px)  {
-      .Searchicon {
-        border-radius: 10px 0 0 10px;}
-        }
+    border-radius: 10px 0 0 10px;
+  }
+}
+
+.Searchinput {
+  padding: 14px;
+  border: none;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: #F2F2F2;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 767px) {
   .Searchinput {
-    padding: 14px;
-    border: none;
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    border-color: #F2F2F2;
-    font-weight: 700;
-    }
-    
-    @media screen and (max-width: 767px)  {
-    .Searchinput {
-      padding: 0;
-      text-align: center;
-     width: 70%;  } 
-         }
-    
-  .Searchsubmitinput {
-  display : flex;
+    padding: 0;
+    text-align: center;
+    width: 70%;
+  }
+}
+
+.Searchsubmitinput {
+  display: flex;
   align-items: center;
   border: none;
   border-radius: 0 16px 16px 0;
   background-color: #0065FC;
   color: white;
-  border : none;
+  border: none;
   cursor: pointer;
-    }
+}
 
-  @media screen and (max-width: 767px)  {
-    .Searchsubmitinput {
-    border:#F2F2F2 1px solid ;
+@media screen and (max-width: 767px) {
+  .Searchsubmitinput {
+    border: #F2F2F2 1px solid;
     width: 20%;
     border-top-left-radius: 25%;
-    border-bottom-left-radius: 25%; }
-        }
-  .Searchsubmitinputicon {
+    border-bottom-left-radius: 25%;
+  }
+}
+
+.Searchsubmitinputicon {
   display: none;
   padding: 14px;
-  }
-  @media screen and (max-width: 767px)  {
+}
+
+@media screen and (max-width: 767px) {
   .Searchsubmitinputicon {
-  display:initial;  }}
-  
-  .SearchsubmitinputText {
-    font-weight: 700;
+    display: initial;
   }
-  @media screen and (max-width: 767px)  {
+}
+
+.SearchsubmitinputText {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 767px) {
   .SearchsubmitinputText {
-  display: none; }}
-  
+    display: none;
+  }
+}
