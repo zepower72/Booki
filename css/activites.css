@@ -19,7 +19,7 @@
   .activitygallery {
     height: 100%;
     flex-wrap: nowrap ;
-    gap: 15px;
+    gap: 10px;
   }
 }
 
